@@ -2,22 +2,6 @@ const Telegraf = require('telegraf');
 const Extra = require('telegraf/extra');
 const Markup = require('telegraf/markup');
 const bot = new Telegraf("1851138717:AAFAyjM8C-T2ceCMoMunLskjqqzxpk_uxLo");
-var mysql = require('mysql');
-
-var con = mysql.createConnection({
-    host: "bmdlss1nc-mysql.services.clever-cloud.com",
-    user: "uniginu57n4qjrse",
-    password: "4XSDrSt1s832RhuxpXC",
-    database:"bmdlss1nc"
-});
-
-con.connect(function(err) {
-    if (err) throw err;
-    console.log("Connected!");
-});
-
-
-
 
 //menu
 
