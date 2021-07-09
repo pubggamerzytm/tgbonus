@@ -1,7 +1,7 @@
 const Telegraf = require('telegraf');
 const Extra = require('telegraf/extra');
 const Markup = require('telegraf/markup');
-const bot = new Telegraf("627515245:AAGooNX-2v8n1WIe_N1BiAUI4WSkGf_Lr9k");
+const bot = new Telegraf("1851138717:AAFAyjM8C-T2ceCMoMunLskjqqzxpk_uxLo");
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
